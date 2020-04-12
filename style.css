@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+    font-size: 75px;
+}
+
+#grid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+#reset {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.row {
+    display: grid;
+}
