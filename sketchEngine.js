@@ -30,7 +30,7 @@ function populateGrid() {
     });
 
     // Initializes intial parameters for the sketching grid
-    var divs = parseInt(prompt('Enter Grid Size'));
+    var divs = parseInt(prompt('Enter Grid Resolution'));
     genDivs(divs);
     var dimension = 600 / divs;
     const cells = document.getElementsByClassName('gridsquare');
